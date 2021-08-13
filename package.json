@@ -1,6 +1,7 @@
 {
   "name": "ip-adress-tracker",
   "homepage": "https://www.angelosgr21.github.io/ip-address-tracker",
+  
   "version": "0.1.0",
   "private": true,
   "dependencies": {
