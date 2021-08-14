@@ -71,14 +71,10 @@ const useStyles = makeStyles((theme) => ({
   //DETAILS ABOUT THE IP STYLING
   detailsContainer: {
     position: "absolute",
-    display: "flex",
     flexDirection: "column",
     justifyContent: "space-evenly",
     textAlign: "center",
     zIndex: "1",
-    width: "80%",
-    marginLeft: "auto",
-    marginRight: "auto",
     left: 0,
     right: 0,
     top: "22%",

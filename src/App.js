@@ -7,7 +7,23 @@ import fetchIP from "./utils/fetchIP";
 import Search from "./Components/Search";
 import IPDetails from "./Components/IPDetails";
 import Map from "./Components/Map";
+import { ThemeProvider, createTheme } from "@material-ui/core";
 
+const theme = createTheme({
+  overrides: {
+    MuiContainer: {
+      root: {
+        display: "flex",
+        width: "80%",
+        boxSizing: "border-box",
+        marginLeft: "auto",
+        marginRight: "auto",
+        paddingLeft: "16px",
+        paddingRight: "16px",
+      },
+    },
+  },
+});
 function App() {
   //STATE FOR IP DATA
   const [IPData, setIPData] = useState({});
@@ -41,9 +57,9 @@ function App() {
   return (
     <>
       <Search ipByClient={ipByClient} handleSubmit={handleSubmit} />
-
-      <IPDetails IPData={IPData} />
-
+      <ThemeProvider theme={theme}>
+        <IPDetails IPData={IPData} />
+      </ThemeProvider>
       <Map IPData={IPData} position={position} />
     </>
   );
