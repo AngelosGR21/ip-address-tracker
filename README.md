@@ -11,7 +11,6 @@ This is a solution to the [IP address tracker challenge on Frontend Mentor](http
 - [My process](#my-process)
   - [Built with](#built-with)
   - [API's used](#api's-used)
-  - [Continued development](#continued-development)
 - [Author](#author)
 
 ## Overview
