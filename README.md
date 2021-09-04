@@ -47,7 +47,7 @@ Users should be able to:
 ### API's used
 
 - [React-Leaflet](https://react-leaflet.js.org/)
-- [API](https://geo.ipify.org/)
+- [Geolocating API](https://geo.ipify.org/)
 
 ## Author
 
