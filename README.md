@@ -10,7 +10,7 @@ This is a solution to the [IP address tracker challenge on Frontend Mentor](http
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [API's used](#api's-used)
+  - [APIs used](#apis-used)
 - [Author](#author)
 
 ## Overview
@@ -44,7 +44,7 @@ Users should be able to:
 - [React](https://reactjs.org/) - JS library
 - [Material-UI](https://material-ui.com/) - React framework
 
-### API's used
+### APIs used
 
 - [React-Leaflet](https://react-leaflet.js.org/)
 - [Geolocating API](https://geo.ipify.org/)
